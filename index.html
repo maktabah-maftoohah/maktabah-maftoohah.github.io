@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ms" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maktabah Maftoohah (المكتبة المفتوحة) — Gerbang Warisan Islam Terbuka</title>
+  <meta name="description" content="Perpustakaan digital sumber terbuka bagi khazanah warisan Islam (Al-Quran, Hadis, Tafsir, Rijal, Seerah) dengan seni bina zero-build dan sokongan luar talian.">
+  <link rel="icon" type="image/svg+xml" href="./icon.svg">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <meta name="theme-color" content="#064e3b">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <a href="./" class="brand-group">
+        <img src="./icon.svg" alt="Maktabah Maftoohah Logo" class="brand-icon">
+        <div class="brand-titles">
+          <span class="app-title" data-i18n="portalTitle">Maktabah Maftoohah</span>
+          <span class="app-title-ar" data-i18n="portalSubtitle">المكتبة المفتوحة</span>
+        </div>
+      </a>
+      <div class="header-actions">
+        <button id="themeToggle" class="btn-icon" title="Tukar Tema" aria-label="Tukar Tema">🌙</button>
+        <button id="langToggle" class="btn-pill" title="Tukar Bahasa" aria-label="Tukar Bahasa">MY</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <span class="hero-badge">🌙 Zero-Build Digital Islamic Heritage</span>
+      <h1 class="hero-heading" data-i18n="heroHeading">Gerbang Terbuka Khazanah Warisan Islam</h1>
+      <p class="hero-desc" data-i18n="heroDesc">
+        Perpustakaan digital sumber terbuka tanpa sebarang perisian binaan (zero-build), mesra luar talian (offline-first), berintegriti tinggi bersandarkan naskhah muktamad para ulama.
+      </p>
+    </div>
+  </section>
+
+  <!-- Stats Banner -->
+  <aside class="stats-banner" aria-label="Statistik Maktabah">
+    <div class="stat-card">
+      <div id="statWorks" class="stat-value">45</div>
+      <div class="stat-label" data-i18n="statsWorks">Kitab Warisan Didaftarkan</div>
+    </div>
+    <div class="stat-card">
+      <div id="statLive" class="stat-value">7</div>
+      <div class="stat-label" data-i18n="statsLive">Pembaca Digital Beroperasi</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">100%</div>
+      <div class="stat-label" data-i18n="statsZeroBuild">Zero-Build Vanilla ES6</div>
+    </div>
+  </aside>
+
+  <!-- Main Content Container -->
+  <main class="app-main">
+
+    <!-- Controls Panel (Search & Category Filters) -->
+    <section class="controls-panel" aria-label="Carian dan Penapis Katalog">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="search" 
+          id="searchInput" 
+          class="search-input" 
+          placeholder="Cari kitab, hadis, pengarang, atau kata kunci..." 
+          data-i18n-ph="searchPlaceholder"
+          autocomplete="off"
+        >
+        <button id="searchClear" class="search-clear" title="Kosongkan carian">&times;</button>
+      </div>
+
+      <div class="filter-group">
+        <button class="filter-pill active" data-category="all" data-i18n="allCategories">Semua Koleksi</button>
+        <button class="filter-pill" data-category="quran" data-i18n="categoryQuran">Al-Quran & Korpus</button>
+        <button class="filter-pill" data-category="kutub-as-sittah" data-i18n="categorySittah">Kutub as-Sittah</button>
+        <button class="filter-pill" data-category="musnad" data-i18n="categoryMusnad">Musnad & Musannaf</button>
+        <button class="filter-pill" data-category="ahkam" data-i18n="categoryAhkam">Hadis Ahkam & Tematik</button>
+        <button class="filter-pill" data-category="tafsir" data-i18n="categoryTafsir">Tafsir Muktabar</button>
+        <button class="filter-pill" data-category="rijal" data-i18n="categoryRijal">Rijal & Tarikh</button>
+        <button class="filter-pill" data-category="seerah" data-i18n="categorySeerah">Seerah & Syamail</button>
+      </div>
+    </section>
+
+    <!-- Works Grid -->
+    <section id="worksGrid" class="works-grid" aria-label="Senarai Kitab Warisan">
+      <!-- Generated via app.js -->
+    </section>
+
+    <!-- Sacred Text Integrity Pledge -->
+    <section class="pledge-section" aria-label="Piagam Integriti Teks">
+      <h3 class="pledge-title">📜 <span data-i18n="sacredPledgeTitle">Piagam Integriti Teks Muqaddas</span></h3>
+      <p class="pledge-text" data-i18n="sacredPledgeText">
+        Maktabah Maftoohah komited sepenuhnya terhadap pemeliharaan teks suci. Teks Al-Quran dan matan Hadith diambil terus daripada edisi tahqiq muktabar tanpa sebarang tokok tambah atau sintesis teks kecerdasan buatan.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- App Footer -->
+  <footer class="app-footer">
+    <p data-i18n="footerText">Maktabah Maftoohah — Hak Cipta Terpelihara untuk Ummah (Open Heritage).</p>
+    <div class="footer-links">
+      <a href="https://github.com/maktabah-maftoohah" target="_blank" rel="noopener noreferrer">Organisasi GitHub</a>
+      <a href="./al-quran/">Al-Quran</a>
+      <a href="./sahih-al-bukhari/">Sahih al-Bukhari</a>
+      <a href="./sahih-muslim/">Sahih Muslim</a>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

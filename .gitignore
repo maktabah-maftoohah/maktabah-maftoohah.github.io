@@ -1,0 +1,13 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/*
+!.vscode/settings.json
+
+# Local scratch & caches
+scratch/
+tmp/
+__pycache__/
+*.pyc

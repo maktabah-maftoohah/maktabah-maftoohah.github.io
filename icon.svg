@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#064e3b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#022c22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#grad)" />
+  <!-- Book Motif & Minaret Arch -->
+  <path d="M256 90 C 200 90, 150 120, 120 160 L 120 370 C 160 340, 210 330, 256 345 C 302 330, 352 340, 392 370 L 392 160 C 362 120, 312 90, 256 90 Z" fill="#d97706" opacity="0.9" />
+  <path d="M256 120 C 215 120, 175 145, 145 180 L 145 350 C 180 325, 220 320, 256 332 C 292 320, 332 325, 367 350 L 367 180 C 337 145, 297 120, 256 120 Z" fill="#f8fafc" />
+  <line x1="256" y1="120" x2="256" y2="332" stroke="#d97706" stroke-width="4" />
+  <!-- Crescent & Star -->
+  <circle cx="256" cy="415" r="24" fill="#fbbf24" />
+  <circle cx="264" cy="410" r="20" fill="#064e3b" />
+</svg>

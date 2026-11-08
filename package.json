@@ -1,0 +1,23 @@
+{
+  "name": "maktabah-maftoohah.github.io",
+  "version": "1.0.0",
+  "description": "Master Organization Portal and Interactive Islamic Heritage Catalogue for Maktabah Maftoohah",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "serve": "python scripts/serve.py --port 8000",
+    "verify": "python scripts/verify_project.py",
+    "sync": "python scripts/sync_catalogue.py"
+  },
+  "keywords": [
+    "maktabah-maftoohah",
+    "islamic-library",
+    "quran",
+    "hadith",
+    "tafsir",
+    "zero-build",
+    "pwa"
+  ],
+  "author": "Maktabah Maftoohah",
+  "license": "MIT"
+}

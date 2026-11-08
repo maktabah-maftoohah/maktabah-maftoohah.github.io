@@ -1,0 +1,16 @@
+{
+  "name": "Maktabah Maftoohah — Perpustakaan Digital Terbuka",
+  "short_name": "Maktabah",
+  "description": "Gerbang Digital Warisan Islam Terbuka & Zero-Build",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#064e3b",
+  "theme_color": "#064e3b",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

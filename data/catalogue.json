@@ -1,0 +1,955 @@
+{
+  "organization": "maktabah-maftoohah",
+  "organization_title": "Maktabah Maftoohah (المكتبة المفتوحة)",
+  "total_works": 45,
+  "updated_at": "2026-11-08T00:00:00Z",
+  "works": [
+    {
+      "id": "al-quran",
+      "name": "al-quran",
+      "title": "Maktabah Maftoohah — Al-Quran",
+      "title_ar": "القرآن الكريم",
+      "visibility": "public",
+      "status": "active",
+      "category": "quran",
+      "description": "Zero-build, offline-first digital Quran with word-by-word morphology, translations, and audio.",
+      "github_url": "https://github.com/maktabah-maftoohah/al-quran",
+      "local_path": "../al-quran",
+      "live_url": "https://maktabah-maftoohah.github.io/al-quran/",
+      "features": [
+        "15-line-mushaf",
+        "morphology",
+        "audio-engine",
+        "asbabun-nuzul",
+        "tafsir-jalalayn",
+        "pwa",
+        "jawi"
+      ],
+      "metrics": {
+        "surahs": 114,
+        "ayahs": 6236,
+        "pages": 604,
+        "translations": [
+          "ms/basmeih",
+          "ms/jalalayn",
+          "en/sahih",
+          "en/pickthall",
+          "id/kemenag"
+        ]
+      }
+    },
+    {
+      "id": "korpus-quran",
+      "name": "korpus-quran",
+      "title": "Maktabah Maftoohah — Korpus Al-Quran",
+      "title_ar": "معجم جذور القرآن وإعرابه",
+      "visibility": "public",
+      "status": "active",
+      "category": "quran",
+      "description": "Zero-build linguistic Quran corpus with Arabic syntax, grammar analysis (nahu & saraf), I'rab breakdown, and 1,651 roots dictionary.",
+      "github_url": "https://github.com/maktabah-maftoohah/korpus-quran",
+      "local_path": "../korpus-quran",
+      "live_url": "https://maktabah-maftoohah.github.io/korpus-quran/",
+      "features": [
+        "morphology",
+        "irab",
+        "roots-dictionary",
+        "concordance",
+        "pwa",
+        "deep-linking"
+      ],
+      "metrics": {
+        "roots": 1651,
+        "ayahs": 6236,
+        "surahs": 114
+      }
+    },
+    {
+      "id": "sahih-al-bukhari",
+      "name": "sahih-al-bukhari",
+      "title": "Maktabah Maftoohah — Sahih al-Bukhari",
+      "title_ar": "صحيح البخاري (الجامع المسند الصحيح المختصر)",
+      "author": "Imam Muhammad ibn Ismail al-Bukhari (194–256 AH)",
+      "visibility": "public",
+      "priority": 1,
+      "status": "in-development",
+      "category": "hadith",
+      "collection": "kutub-as-sittah",
+      "description": "Zero-build digital viewer and structured dataset for Sahih al-Bukhari with sanad breakdown, takhrij, and Malay/English translations.",
+      "github_url": "https://github.com/maktabah-maftoohah/sahih-al-bukhari",
+      "local_path": "../sahih-al-bukhari",
+      "live_url": "https://maktabah-maftoohah.github.io/sahih-al-bukhari/",
+      "metrics": {
+        "estimated_hadiths": 7563,
+        "books": 97,
+        "numbering_systems": [
+          "darussalam",
+          "in-book",
+          "fath-al-bari"
+        ]
+      }
+    },
+    {
+      "id": "sahih-muslim",
+      "name": "sahih-muslim",
+      "title": "Maktabah Maftoohah — Sahih Muslim",
+      "title_ar": "صحيح مسلم (المسند الصحيح المختصر)",
+      "author": "Imam Muslim ibn al-Hajjaj an-Naysaburi (204–261 AH)",
+      "visibility": "public",
+      "status": "in-development",
+      "priority": 2,
+      "category": "hadith",
+      "collection": "kutub-as-sittah",
+      "description": "Zero-build digital viewer and structured dataset for Sahih Muslim with turuq (narration chains) analysis and multi-lingual translations.",
+      "github_url": "https://github.com/maktabah-maftoohah/sahih-muslim",
+      "local_path": "../sahih-muslim",
+      "live_url": "https://maktabah-maftoohah.github.io/sahih-muslim/",
+      "metrics": {
+        "estimated_hadiths": 7500,
+        "books": 54,
+        "numbering_systems": [
+          "darussalam",
+          "in-book",
+          "fuad-abdul-baqi"
+        ]
+      }
+    },
+    {
+      "id": "sunan-abi-dawud",
+      "name": "sunan-abi-dawud",
+      "title": "Maktabah Maftoohah — Sunan Abi Dawud",
+      "title_ar": "سنن أبي داود",
+      "author": "Imam Abu Dawud Sulayman ibn al-Ash'ath as-Sijistani (202–275 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 3,
+      "category": "hadith",
+      "collection": "kutub-as-sittah",
+      "description": "Zero-build viewer for Sunan Abi Dawud with fiqh-oriented chaptering and scholars' gradings.",
+      "github_url": "https://github.com/maktabah-maftoohah/sunan-abi-dawud",
+      "local_path": "../sunan-abi-dawud",
+      "live_url": "https://maktabah-maftoohah.github.io/sunan-abi-dawud/",
+      "metrics": {
+        "estimated_hadiths": 5274,
+        "books": 43
+      }
+    },
+    {
+      "id": "jami-at-tirmidhi",
+      "name": "jami-at-tirmidhi",
+      "title": "Maktabah Maftoohah — Jami' at-Tirmidhi",
+      "title_ar": "جامع الترمذي (سنن الترمذي)",
+      "author": "Imam Abu 'Isa Muhammad at-Tirmidhi (209–279 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 4,
+      "category": "hadith",
+      "collection": "kutub-as-sittah",
+      "description": "Zero-build viewer for Jami' at-Tirmidhi with Imam at-Tirmidhi's classical verdicts (Hasan Sahih) and comparative fiqh.",
+      "github_url": "https://github.com/maktabah-maftoohah/jami-at-tirmidhi",
+      "local_path": "../jami-at-tirmidhi",
+      "live_url": "https://maktabah-maftoohah.github.io/jami-at-tirmidhi/",
+      "metrics": {
+        "estimated_hadiths": 3956,
+        "books": 46
+      }
+    },
+    {
+      "id": "sunan-an-nasai",
+      "name": "sunan-an-nasai",
+      "title": "Maktabah Maftoohah — Sunan an-Nasa'i",
+      "title_ar": "سنن النسائي (المجتبى)",
+      "author": "Imam Ahmad ibn Shu'ayb an-Nasa'i (214–303 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 5,
+      "category": "hadith",
+      "collection": "kutub-as-sittah",
+      "description": "Zero-build viewer for Sunan an-Nasa'i with meticulous 'ilal (hidden defects) and sanad variants.",
+      "github_url": "https://github.com/maktabah-maftoohah/sunan-an-nasai",
+      "local_path": "../sunan-an-nasai",
+      "live_url": "https://maktabah-maftoohah.github.io/sunan-an-nasai/",
+      "metrics": {
+        "estimated_hadiths": 5758,
+        "books": 51
+      }
+    },
+    {
+      "id": "sunan-ibn-majah",
+      "name": "sunan-ibn-majah",
+      "title": "Maktabah Maftoohah — Sunan Ibn Majah",
+      "title_ar": "سنن ابن ماجه",
+      "author": "Imam Ibn Majah Muhammad ibn Yazid al-Qazwini (209–273 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 6,
+      "category": "hadith",
+      "collection": "kutub-as-sittah",
+      "description": "Zero-build viewer for Sunan Ibn Majah completing the canonical Kutub as-Sittah collection.",
+      "github_url": "https://github.com/maktabah-maftoohah/sunan-ibn-majah",
+      "local_path": "../sunan-ibn-majah",
+      "live_url": "https://maktabah-maftoohah.github.io/sunan-ibn-majah/",
+      "metrics": {
+        "estimated_hadiths": 4341,
+        "books": 37
+      }
+    },
+    {
+      "id": "muwatta-malik",
+      "name": "muwatta-malik",
+      "title": "Maktabah Maftoohah — Muwatta Malik",
+      "title_ar": "موطأ الإمام مالك",
+      "author": "Imam Malik ibn Anas (93–179 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 7,
+      "category": "hadith",
+      "collection": "classical-early",
+      "description": "Zero-build viewer for Muwatta Malik (Riwayah Yahya ibn Yahya al-Laythi) with Medinan practice traditions.",
+      "github_url": "https://github.com/maktabah-maftoohah/muwatta-malik",
+      "local_path": "../muwatta-malik",
+      "live_url": "https://maktabah-maftoohah.github.io/muwatta-malik/",
+      "metrics": {
+        "estimated_hadiths": 1858,
+        "books": 61
+      }
+    },
+    {
+      "id": "arbaeen-an-nawawi",
+      "name": "arbaeen-an-nawawi",
+      "title": "Maktabah Maftoohah — Al-Arba'in an-Nawawiyyah",
+      "title_ar": "الأربعون النووية",
+      "author": "Imam Yahya ibn Sharaf an-Nawawi (631–676 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 8,
+      "category": "hadith",
+      "collection": "compilations",
+      "description": "Zero-build viewer for Imam an-Nawawi's 42 fundamental Hadiths with commentary and audio.",
+      "github_url": "https://github.com/maktabah-maftoohah/arbaeen-an-nawawi",
+      "local_path": "../arbaeen-an-nawawi",
+      "live_url": "https://maktabah-maftoohah.github.io/arbaeen-an-nawawi/",
+      "metrics": {
+        "estimated_hadiths": 42,
+        "books": 1
+      }
+    },
+    {
+      "id": "riyad-as-salihin",
+      "name": "riyad-as-salihin",
+      "title": "Maktabah Maftoohah — Riyad as-Salihin",
+      "title_ar": "رياض الصالحين من كلام سيد المرسلين",
+      "author": "Imam Yahya ibn Sharaf an-Nawawi (631–676 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 9,
+      "category": "hadith",
+      "collection": "compilations",
+      "description": "Zero-build viewer for Riyad as-Salihin with thematic Quranic and Hadith moral lessons.",
+      "github_url": "https://github.com/maktabah-maftoohah/riyad-as-salihin",
+      "local_path": "../riyad-as-salihin",
+      "live_url": "https://maktabah-maftoohah.github.io/riyad-as-salihin/",
+      "metrics": {
+        "estimated_hadiths": 1896,
+        "books": 19
+      }
+    },
+    {
+      "id": "musnad-ahmad",
+      "name": "musnad-ahmad",
+      "title": "Maktabah Maftoohah — Musnad Ahmad ibn Hanbal",
+      "title_ar": "مسند الإمام أحمد بن حنبل",
+      "author": "Imam Ahmad ibn Hanbal (164–241 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 10,
+      "category": "hadith",
+      "collection": "musnad",
+      "description": "Zero-build viewer for Musnad Ahmad ibn Hanbal arranged by Sahabah narrators with Shu'ayb al-Arnaut takhrij.",
+      "github_url": "https://github.com/maktabah-maftoohah/musnad-ahmad",
+      "local_path": "../musnad-ahmad",
+      "live_url": "https://maktabah-maftoohah.github.io/musnad-ahmad/",
+      "metrics": {
+        "estimated_hadiths": 27647,
+        "books": 1,
+        "numbering_systems": [
+          "arnaut-risalah",
+          "ihya-al-turath"
+        ]
+      }
+    },
+    {
+      "id": "musannaf-abd-al-razzaq",
+      "name": "musannaf-abd-al-razzaq",
+      "title": "Maktabah Maftoohah — Musannaf 'Abd al-Razzaq",
+      "title_ar": "مصنف عبد الرزاق الصنعاني",
+      "author": "Imam 'Abd al-Razzaq ibn Hammam as-San'ani (126–211 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 11,
+      "category": "hadith",
+      "collection": "early-musannaf",
+      "description": "Zero-build viewer for Musannaf 'Abd al-Razzaq covering early Hadith, Athar of the Sahabah, and fatawa of the Tabi'in.",
+      "github_url": "https://github.com/maktabah-maftoohah/musannaf-abd-al-razzaq",
+      "local_path": "../musannaf-abd-al-razzaq",
+      "live_url": "https://maktabah-maftoohah.github.io/musannaf-abd-al-razzaq/",
+      "metrics": {
+        "estimated_hadiths": 21033,
+        "books": 31,
+        "numbering_systems": [
+          "habib-al-azami",
+          "dar-al-tasil"
+        ]
+      }
+    },
+    {
+      "id": "musannaf-ibn-abi-shaybah",
+      "name": "musannaf-ibn-abi-shaybah",
+      "title": "Maktabah Maftoohah — Musannaf Ibn Abi Shaybah",
+      "title_ar": "مصنف ابن أبي شيبة (الكتاب المصنف في الأحاديث والآثار)",
+      "author": "Imam Abu Bakr Ibn Abi Shaybah (159–235 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 12,
+      "category": "hadith",
+      "collection": "early-musannaf",
+      "description": "Zero-build viewer for Musannaf Ibn Abi Shaybah containing vast corpora of Marfu', Mawquf, and Maqtu' traditions.",
+      "github_url": "https://github.com/maktabah-maftoohah/musannaf-ibn-abi-shaybah",
+      "local_path": "../musannaf-ibn-abi-shaybah",
+      "live_url": "https://maktabah-maftoohah.github.io/musannaf-ibn-abi-shaybah/",
+      "metrics": {
+        "estimated_hadiths": 37943,
+        "books": 39,
+        "numbering_systems": [
+          "dar-al-qiblah",
+          "awwad-maruf"
+        ]
+      }
+    },
+    {
+      "id": "juz-al-mafqud-abd-al-razzaq",
+      "name": "juz-al-mafqud-abd-al-razzaq",
+      "title": "Maktabah Maftoohah — Al-Juz' al-Mafqud (Claimed Missing Part of Musannaf 'Abd al-Razzaq)",
+      "title_ar": "الجزء المفقود من الجزء الأول من مصنف عبد الرزاق (دراسة وتخريج)",
+      "author": "Attributed to 'Abd al-Razzaq as-San'ani (Ed. Isa al-Himyari; Critical Study: Muhammad Ziyad at-Tuklah)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 13,
+      "category": "hadith",
+      "collection": "critical-studies",
+      "description": "Digital text and scholarly critical examination (Dirasah Naqdiyyah & Takhrij) of the claimed missing first portion of Musannaf 'Abd al-Razzaq.",
+      "github_url": "https://github.com/maktabah-maftoohah/juz-al-mafqud-abd-al-razzaq",
+      "local_path": "../juz-al-mafqud-abd-al-razzaq",
+      "live_url": "https://maktabah-maftoohah.github.io/juz-al-mafqud-abd-al-razzaq/",
+      "metrics": {
+        "estimated_hadiths": 40,
+        "focus": "Critical analysis, takhrij, and comparative manuscript evaluation"
+      }
+    },
+    {
+      "id": "sunan-ad-darimi",
+      "name": "sunan-ad-darimi",
+      "title": "Maktabah Maftoohah — Sunan ad-Darimi",
+      "title_ar": "سنن الدارمي (مسند الدارمي)",
+      "author": "Imam 'Abdullah ibn 'Abd al-Rahman ad-Darimi (181–255 AH)",
+      "visibility": "public",
+      "status": "in-development",
+      "priority": 14,
+      "category": "hadith",
+      "collection": "kutub-at-tisah",
+      "description": "Zero-build viewer for Sunan ad-Darimi completing the canonical Kutub at-Tis'ah (Nine Books).",
+      "github_url": "https://github.com/maktabah-maftoohah/sunan-ad-darimi",
+      "local_path": "../sunan-ad-darimi",
+      "live_url": "https://maktabah-maftoohah.github.io/sunan-ad-darimi/",
+      "metrics": {
+        "estimated_hadiths": 3500,
+        "books": 24
+      }
+    },
+    {
+      "id": "sahih-ibn-khuzaymah",
+      "name": "sahih-ibn-khuzaymah",
+      "title": "Maktabah Maftoohah — Sahih Ibn Khuzaymah",
+      "title_ar": "صحيح ابن خزيمة (مختصر المختصر من المسند الصحيح)",
+      "author": "Imam Abu Bakr Muhammad ibn Ishaq ibn Khuzaymah (223–311 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 15,
+      "category": "hadith",
+      "collection": "sahih-collections",
+      "description": "Zero-build viewer for Sahih Ibn Khuzaymah featuring rigorous chain verification and legal deduction.",
+      "github_url": "https://github.com/maktabah-maftoohah/sahih-ibn-khuzaymah",
+      "local_path": "../sahih-ibn-khuzaymah",
+      "live_url": "https://maktabah-maftoohah.github.io/sahih-ibn-khuzaymah/",
+      "metrics": {
+        "estimated_hadiths": 3079,
+        "books": 38
+      }
+    },
+    {
+      "id": "sahih-ibn-hibban",
+      "name": "sahih-ibn-hibban",
+      "title": "Maktabah Maftoohah — Sahih Ibn Hibban",
+      "title_ar": "صحيح ابن حبان (التقاسيم والأنواع / الإحسان)",
+      "author": "Imam Abu Hatim Muhammad Ibn Hibban al-Busti (d. 354 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 16,
+      "category": "hadith",
+      "collection": "sahih-collections",
+      "description": "Zero-build viewer for Sahih Ibn Hibban arranged under Al-Ihsan order with Shu'ayb al-Arnaut gradings.",
+      "github_url": "https://github.com/maktabah-maftoohah/sahih-ibn-hibban",
+      "local_path": "../sahih-ibn-hibban",
+      "live_url": "https://maktabah-maftoohah.github.io/sahih-ibn-hibban/",
+      "metrics": {
+        "estimated_hadiths": 7491,
+        "books": 60
+      }
+    },
+    {
+      "id": "al-mustadrak-al-hakim",
+      "name": "al-mustadrak-al-hakim",
+      "title": "Maktabah Maftoohah — Al-Mustadrak 'ala al-Sahihayn",
+      "title_ar": "المستدرك على الصحيحين مع تلخيص الذهبي",
+      "author": "Imam Al-Hakim Muhammad ibn 'Abdillah an-Naysaburi (321–405 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 17,
+      "category": "hadith",
+      "collection": "mustadrakat",
+      "description": "Zero-build viewer for Al-Mustadrak 'ala al-Sahihayn paired with comparative evaluation of Talkhis al-Dhahabi.",
+      "github_url": "https://github.com/maktabah-maftoohah/al-mustadrak-al-hakim",
+      "local_path": "../al-mustadrak-al-hakim",
+      "live_url": "https://maktabah-maftoohah.github.io/al-mustadrak-al-hakim/",
+      "metrics": {
+        "estimated_hadiths": 8956,
+        "books": 51
+      }
+    },
+    {
+      "id": "bulugh-al-maram",
+      "name": "bulugh-al-maram",
+      "title": "Maktabah Maftoohah — Bulugh al-Maram",
+      "title_ar": "بلوغ المرام من أدلة الأحكام",
+      "author": "Al-Hafiz Ibn Hajar al-'Asqalani (773–852 AH)",
+      "visibility": "public",
+      "status": "in-development",
+      "priority": 18,
+      "category": "hadith",
+      "collection": "ahadith-al-ahkam",
+      "description": "Zero-build viewer for Bulugh al-Maram min Adillat al-Ahkam with source takhrij and legal grading commentary.",
+      "github_url": "https://github.com/maktabah-maftoohah/bulugh-al-maram",
+      "local_path": "../bulugh-al-maram",
+      "live_url": "https://maktabah-maftoohah.github.io/bulugh-al-maram/",
+      "metrics": {
+        "estimated_hadiths": 1596,
+        "books": 16
+      }
+    },
+    {
+      "id": "umdat-al-ahkam",
+      "name": "umdat-al-ahkam",
+      "title": "Maktabah Maftoohah — 'Umdat al-Ahkam",
+      "title_ar": "عمدة الأحكام من كلام خير الأنام",
+      "author": "Al-Hafiz 'Abd al-Ghani al-Maqdisi (541–600 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 19,
+      "category": "hadith",
+      "collection": "ahadith-al-ahkam",
+      "description": "Zero-build viewer for 'Umdat al-Ahkam containing agreed-upon (Muttafaq 'Alayh) fiqh rulings.",
+      "github_url": "https://github.com/maktabah-maftoohah/umdat-al-ahkam",
+      "local_path": "../umdat-al-ahkam",
+      "live_url": "https://maktabah-maftoohah.github.io/umdat-al-ahkam/",
+      "metrics": {
+        "estimated_hadiths": 433,
+        "books": 16
+      }
+    },
+    {
+      "id": "sunan-al-kubra-al-bayhaqi",
+      "name": "sunan-al-kubra-al-bayhaqi",
+      "title": "Maktabah Maftoohah — Al-Sunan al-Kubra (Al-Bayhaqi)",
+      "title_ar": "السنن الكبرى للبيهقي",
+      "author": "Al-Hafiz Abu Bakr Ahmad ibn al-Husayn al-Bayhaqi (384–458 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 20,
+      "category": "hadith",
+      "collection": "sunan-encyclopedic",
+      "description": "Zero-build viewer for Al-Sunan al-Kubra by Al-Bayhaqi, comprehensive encyclopedia of legal evidences.",
+      "github_url": "https://github.com/maktabah-maftoohah/sunan-al-kubra-al-bayhaqi",
+      "local_path": "../sunan-al-kubra-al-bayhaqi",
+      "live_url": "https://maktabah-maftoohah.github.io/sunan-al-kubra-al-bayhaqi/",
+      "metrics": {
+        "estimated_hadiths": 21812,
+        "books": 70
+      }
+    },
+    {
+      "id": "sunan-ad-daraqutni",
+      "name": "sunan-ad-daraqutni",
+      "title": "Maktabah Maftoohah — Sunan ad-Daraqutni",
+      "title_ar": "سنن الدارقطني",
+      "author": "Imam Abu al-Hasan 'Ali ibn 'Umar ad-Daraqutni (306–385 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 21,
+      "category": "hadith",
+      "collection": "sunan-encyclopedic",
+      "description": "Zero-build viewer for Sunan ad-Daraqutni focusing on isnad 'ilal, legal evidences, and variant chains.",
+      "github_url": "https://github.com/maktabah-maftoohah/sunan-ad-daraqutni",
+      "local_path": "../sunan-ad-daraqutni",
+      "live_url": "https://maktabah-maftoohah.github.io/sunan-ad-daraqutni/",
+      "metrics": {
+        "estimated_hadiths": 4898,
+        "books": 40
+      }
+    },
+    {
+      "id": "sharh-maani-al-athar",
+      "name": "sharh-maani-al-athar",
+      "title": "Maktabah Maftoohah — Sharh Ma'ani al-Athar",
+      "title_ar": "شرح معاني الآثار للإمام الطحاوي",
+      "author": "Imam Abu Ja'far Ahmad ibn Muhammad at-Tahawi (239–321 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 22,
+      "category": "hadith",
+      "collection": "athar-fiqh",
+      "description": "Zero-build viewer for Imam at-Tahawi's foundational compilation of Athar, comparative fiqh, and Hadith reconciliation.",
+      "github_url": "https://github.com/maktabah-maftoohah/sharh-maani-al-athar",
+      "local_path": "../sharh-maani-al-athar",
+      "live_url": "https://maktabah-maftoohah.github.io/sharh-maani-al-athar/",
+      "metrics": {
+        "estimated_hadiths": 7354,
+        "books": 26
+      }
+    },
+    {
+      "id": "shamail-al-muhammadiyyah",
+      "name": "shamail-al-muhammadiyyah",
+      "title": "Maktabah Maftoohah — Al-Shama'il al-Muhammadiyyah",
+      "title_ar": "الشمائل المحمدية للإمام الترمذي",
+      "author": "Imam Abu 'Isa Muhammad at-Tirmidhi (209–279 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 23,
+      "category": "hadith",
+      "collection": "shamail",
+      "description": "Zero-build viewer for Al-Shama'il al-Muhammadiyyah detailing the physical description, noble character, and lifestyle of the Prophet ﷺ.",
+      "github_url": "https://github.com/maktabah-maftoohah/shamail-al-muhammadiyyah",
+      "local_path": "../shamail-al-muhammadiyyah",
+      "live_url": "https://maktabah-maftoohah.github.io/shamail-al-muhammadiyyah/",
+      "metrics": {
+        "estimated_hadiths": 397,
+        "books": 56
+      }
+    },
+    {
+      "id": "mishkat-al-masabih",
+      "name": "mishkat-al-masabih",
+      "title": "Maktabah Maftoohah — Mishkat al-Masabih",
+      "title_ar": "مشكاة المصابيح للخطيب التبريزي",
+      "author": "Al-Khatib at-Tabrizi (d. 741 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 24,
+      "category": "hadith",
+      "collection": "compilations",
+      "description": "Zero-build viewer for Mishkat al-Masabih categorized into authentic, good, and gharib narrations.",
+      "github_url": "https://github.com/maktabah-maftoohah/mishkat-al-masabih",
+      "local_path": "../mishkat-al-masabih",
+      "live_url": "https://maktabah-maftoohah.github.io/mishkat-al-masabih/",
+      "metrics": {
+        "estimated_hadiths": 6285,
+        "books": 29
+      }
+    },
+    {
+      "id": "kitab-al-mawduat-ibn-al-jawzi",
+      "name": "kitab-al-mawduat-ibn-al-jawzi",
+      "title": "Maktabah Maftoohah — Kitab al-Mawdu'at (Ibn al-Jawzi)",
+      "title_ar": "كتاب الموضوعات من الأحاديث المرفوعات لابن الجوزي",
+      "author": "Imam Abu al-Faraj 'Abd al-Rahman Ibn al-Jawzi (510–597 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 25,
+      "category": "hadith",
+      "collection": "critical-mawduat",
+      "description": "Zero-build viewer for Ibn al-Jawzi's classical encyclopedia of fabricated (mawdu') hadiths with critical notes and scholarly defenses.",
+      "github_url": "https://github.com/maktabah-maftoohah/kitab-al-mawduat-ibn-al-jawzi",
+      "local_path": "../kitab-al-mawduat-ibn-al-jawzi",
+      "live_url": "https://maktabah-maftoohah.github.io/kitab-al-mawduat-ibn-al-jawzi/",
+      "metrics": {
+        "estimated_hadiths": 1847,
+        "books": 50
+      }
+    },
+    {
+      "id": "musnad-al-shafii",
+      "name": "musnad-al-shafii",
+      "title": "Maktabah Maftoohah — Musnad al-Imam al-Shafi'i",
+      "title_ar": "مسند الإمام الشافعي (ترتيب الرافعي)",
+      "author": "Imam Muhammad ibn Idris al-Shafi'i (150–204 AH), Riwayah al-Asamm",
+      "visibility": "public",
+      "status": "in-development",
+      "priority": 26,
+      "category": "hadith",
+      "collection": "musnad",
+      "description": "Zero-build viewer for Musnad al-Imam al-Shafi'i arranged by Imam al-Rafi'i, featuring early Hijri isnads and Shafi'i legal foundations.",
+      "github_url": "https://github.com/maktabah-maftoohah/musnad-al-shafii",
+      "local_path": "../musnad-al-shafii",
+      "live_url": "https://maktabah-maftoohah.github.io/musnad-al-shafii/",
+      "metrics": {
+        "estimated_hadiths": 1850,
+        "books": 32,
+        "numbering_systems": [
+          "ahmad-shakir",
+          "tartib-al-rafii"
+        ]
+      }
+    },
+    {
+      "id": "ikhtilaf-al-hadith",
+      "name": "ikhtilaf-al-hadith",
+      "title": "Maktabah Maftoohah — Ikhtilaf al-Hadith (Al-Shafi'i)",
+      "title_ar": "اختلاف الحديث للإمام الشافعي",
+      "author": "Imam Muhammad ibn Idris al-Shafi'i (150–204 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 27,
+      "category": "hadith",
+      "collection": "usul-hadith",
+      "description": "Zero-build viewer for Imam al-Shafi'i's pioneering treatise on resolving apparent contradictions and harmony among authentic Hadiths.",
+      "github_url": "https://github.com/maktabah-maftoohah/ikhtilaf-al-hadith",
+      "local_path": "../ikhtilaf-al-hadith",
+      "live_url": "https://maktabah-maftoohah.github.io/ikhtilaf-al-hadith/",
+      "metrics": {
+        "estimated_hadiths": 350,
+        "books": 1
+      }
+    },
+    {
+      "id": "kitab-al-umm",
+      "name": "kitab-al-umm",
+      "title": "Maktabah Maftoohah — Kitab al-Umm",
+      "title_ar": "كتاب الأم للإمام الشافعي",
+      "author": "Imam Muhammad ibn Idris al-Shafi'i (150–204 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 28,
+      "category": "fiqh",
+      "collection": "classical-fiqh",
+      "description": "Zero-build viewer for Imam al-Shafi'i's monumental legal encyclopedia containing full textual isnads, comparative fiqh, and legal derivations.",
+      "github_url": "https://github.com/maktabah-maftoohah/kitab-al-umm",
+      "local_path": "../kitab-al-umm",
+      "live_url": "https://maktabah-maftoohah.github.io/kitab-al-umm/",
+      "metrics": {
+        "volumes": 11,
+        "estimated_hadiths_and_athar": 4200
+      }
+    },
+    {
+      "id": "tafsir-al-tabari",
+      "name": "tafsir-al-tabari",
+      "title": "Maktabah Maftoohah — Tafsir al-Tabari (Jami' al-Bayan)",
+      "title_ar": "جامع البيان عن تأويل آي القرآن للإمام الطبري",
+      "author": "Imam Muhammad ibn Jarir al-Tabari (224–310 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 29,
+      "category": "tafsir",
+      "collection": "tafsir-bi-al-mathur",
+      "description": "Zero-build viewer for Tafsir al-Tabari, the foundational exegesis of the Quran by Hadith, Athar of the Sahabah, and linguistic analysis.",
+      "github_url": "https://github.com/maktabah-maftoohah/tafsir-al-tabari",
+      "local_path": "../tafsir-al-tabari",
+      "live_url": "https://maktabah-maftoohah.github.io/tafsir-al-tabari/",
+      "metrics": {
+        "volumes": 24,
+        "estimated_athar": 38000,
+        "surahs": 114
+      }
+    },
+    {
+      "id": "tafsir-ibn-kathir",
+      "name": "tafsir-ibn-kathir",
+      "title": "Maktabah Maftoohah — Tafsir Ibn Kathir",
+      "title_ar": "تفسير القرآن العظيم للحافظ ابن كثير",
+      "author": "Al-Hafiz 'Imad ad-Din Isma'il ibn Kathir (700–774 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 30,
+      "category": "tafsir",
+      "collection": "tafsir-bi-al-mathur",
+      "description": "Zero-build viewer for Tafsir Ibn Kathir, the global standard exegesis synthesizing Quranic cross-references, Hadith, and early Athar.",
+      "github_url": "https://github.com/maktabah-maftoohah/tafsir-ibn-kathir",
+      "local_path": "../tafsir-ibn-kathir",
+      "live_url": "https://maktabah-maftoohah.github.io/tafsir-ibn-kathir/",
+      "metrics": {
+        "volumes": 8,
+        "surahs": 114
+      }
+    },
+    {
+      "id": "tafsir-al-qurtubi",
+      "name": "tafsir-al-qurtubi",
+      "title": "Maktabah Maftoohah — Tafsir al-Qurtubi",
+      "title_ar": "الجامع لأحكام القرآن للإمام القرطبي",
+      "author": "Imam Abu 'Abdullah Muhammad ibn Ahmad al-Qurtubi (600–671 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 31,
+      "category": "tafsir",
+      "collection": "ahkam-al-quran",
+      "description": "Zero-build viewer for Tafsir al-Qurtubi, comprehensive encyclopedia of legal rulings (Ahkam), comparative fiqh, and Qira'at.",
+      "github_url": "https://github.com/maktabah-maftoohah/tafsir-al-qurtubi",
+      "local_path": "../tafsir-al-qurtubi",
+      "live_url": "https://maktabah-maftoohah.github.io/tafsir-al-qurtubi/",
+      "metrics": {
+        "volumes": 20,
+        "surahs": 114
+      }
+    },
+    {
+      "id": "tafsir-al-baghawi",
+      "name": "tafsir-al-baghawi",
+      "title": "Maktabah Maftoohah — Tafsir al-Baghawi (Ma'alim al-Tanzil)",
+      "title_ar": "معالم التنزيل للإمام البغوي",
+      "author": "Imam Abu Muhammad al-Husayn ibn Mas'ud al-Baghawi (433–516 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 32,
+      "category": "tafsir",
+      "collection": "tafsir-bi-al-mathur",
+      "description": "Zero-build viewer for Tafsir al-Baghawi renowned for its authentic traditions, linguistic clarity, and avoidance of spurious reports.",
+      "github_url": "https://github.com/maktabah-maftoohah/tafsir-al-baghawi",
+      "local_path": "../tafsir-al-baghawi",
+      "live_url": "https://maktabah-maftoohah.github.io/tafsir-al-baghawi/",
+      "metrics": {
+        "volumes": 8,
+        "surahs": 114
+      }
+    },
+    {
+      "id": "tahdhib-al-kamal",
+      "name": "tahdhib-al-kamal",
+      "title": "Maktabah Maftoohah — Tahdhib al-Kamal & Taqrib al-Tahdhib",
+      "title_ar": "تهذيب الكمال في أسماء الرجال للمزي وتقريب التهذيب لابن حجر",
+      "author": "Al-Hafiz Jamal ad-Din al-Mizzi (654–742 AH) / Ibn Hajar al-'Asqalani (773–852 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 33,
+      "category": "rijal",
+      "collection": "kutub-al-rijal",
+      "description": "Zero-build biographical dictionary covering the narrators of the Kutub as-Sittah with teacher-student links and Jarh wa Ta'dil.",
+      "github_url": "https://github.com/maktabah-maftoohah/tahdhib-al-kamal",
+      "local_path": "../tahdhib-al-kamal",
+      "live_url": "https://maktabah-maftoohah.github.io/tahdhib-al-kamal/",
+      "metrics": {
+        "estimated_narrators": 8500,
+        "primary_focus": "Rijal of Kutub as-Sittah"
+      }
+    },
+    {
+      "id": "siyar-alam-al-nubala",
+      "name": "siyar-alam-al-nubala",
+      "title": "Maktabah Maftoohah — Siyar A'lam al-Nubala'",
+      "title_ar": "سير أعلام النبلاء للإمام الذهبي",
+      "author": "Al-Hafiz Shams ad-Din adh-Dhahabi (673–748 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 34,
+      "category": "rijal",
+      "collection": "biographies",
+      "description": "Zero-build viewer for Adh-Dhahabi's premier multi-volume biographical encyclopedia of Islamic scholarship, Companions, and Imams.",
+      "github_url": "https://github.com/maktabah-maftoohah/siyar-alam-al-nubala",
+      "local_path": "../siyar-alam-al-nubala",
+      "live_url": "https://maktabah-maftoohah.github.io/siyar-alam-al-nubala/",
+      "metrics": {
+        "volumes": 25,
+        "estimated_biographies": 5900
+      }
+    },
+    {
+      "id": "al-isabah-ibn-hajar",
+      "name": "al-isabah-ibn-hajar",
+      "title": "Maktabah Maftoohah — Al-Isabah fi Tamyiz al-Sahabah",
+      "title_ar": "الإصابة في تمييز الصحابة للحافظ ابن حجر العسقلاني",
+      "author": "Al-Hafiz Ibn Hajar al-'Asqalani (773–852 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 35,
+      "category": "rijal",
+      "collection": "sahabah-biographies",
+      "description": "Zero-build viewer for Al-Isabah, the definitive reference encyclopedia on the biographies and narrations of the Sahabah.",
+      "github_url": "https://github.com/maktabah-maftoohah/al-isabah-ibn-hajar",
+      "local_path": "../al-isabah-ibn-hajar",
+      "live_url": "https://maktabah-maftoohah.github.io/al-isabah-ibn-hajar/",
+      "metrics": {
+        "volumes": 16,
+        "estimated_sahabah": 12400
+      }
+    },
+    {
+      "id": "al-mujam-al-kabir-tabarani",
+      "name": "al-mujam-al-kabir-tabarani",
+      "title": "Maktabah Maftoohah — Al-Mu'jam al-Kabir (At-Tabarani)",
+      "title_ar": "المعجم الكبير للحافظ الطبراني",
+      "author": "Al-Hafiz Abu al-Qasim Sulayman ibn Ahmad at-Tabarani (260–360 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 36,
+      "category": "hadith",
+      "collection": "maajim",
+      "description": "Zero-build viewer for Al-Mu'jam al-Kabir, monumental encyclopedia arranged alphabetically by Sahabah narrators.",
+      "github_url": "https://github.com/maktabah-maftoohah/al-mujam-al-kabir-tabarani",
+      "local_path": "../al-mujam-al-kabir-tabarani",
+      "live_url": "https://maktabah-maftoohah.github.io/al-mujam-al-kabir-tabarani/",
+      "metrics": {
+        "volumes": 25,
+        "estimated_hadiths": 20000
+      }
+    },
+    {
+      "id": "majma-al-zawaid-haythami",
+      "name": "majma-al-zawaid-haythami",
+      "title": "Maktabah Maftoohah — Majma' al-Zawa'id (Al-Haythami)",
+      "title_ar": "مجمع الزوائد ومنبع الفوائد للحافظ الهيثمي",
+      "author": "Al-Hafiz Nur ad-Din 'Ali ibn Abi Bakr al-Haythami (735–807 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 37,
+      "category": "hadith",
+      "collection": "zawaid",
+      "description": "Zero-build viewer for Majma' al-Zawa'id unifying surplus hadiths of Musnad Ahmad, Abu Ya'la, Al-Bazzar, and At-Tabarani with takhrij.",
+      "github_url": "https://github.com/maktabah-maftoohah/majma-al-zawaid-haythami",
+      "local_path": "../majma-al-zawaid-haythami",
+      "live_url": "https://maktabah-maftoohah.github.io/majma-al-zawaid-haythami/",
+      "metrics": {
+        "volumes": 10,
+        "estimated_hadiths": 18700
+      }
+    },
+    {
+      "id": "al-adab-al-mufrad-bukhari",
+      "name": "al-adab-al-mufrad-bukhari",
+      "title": "Maktabah Maftoohah — Al-Adab al-Mufrad (Al-Bukhari)",
+      "title_ar": "الأدب المفرد للإمام البخاري",
+      "author": "Imam Muhammad ibn Isma'il al-Bukhari (194–256 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 38,
+      "category": "hadith",
+      "collection": "akhlaq-adab",
+      "description": "Zero-build viewer for Imam al-Bukhari's specialized collection of Prophetic traditions on Islamic manners, family life, and etiquette.",
+      "github_url": "https://github.com/maktabah-maftoohah/al-adab-al-mufrad-bukhari",
+      "local_path": "../al-adab-al-mufrad-bukhari",
+      "live_url": "https://maktabah-maftoohah.github.io/al-adab-al-mufrad-bukhari/",
+      "metrics": {
+        "estimated_hadiths": 1322,
+        "chapters": 645
+      }
+    },
+    {
+      "id": "shuab-al-iman-bayhaqi",
+      "name": "shuab-al-iman-bayhaqi",
+      "title": "Maktabah Maftoohah — Shu'ab al-Iman (Al-Bayhaqi)",
+      "title_ar": "شعب الإيمان للحافظ البيهقي",
+      "author": "Al-Hafiz Abu Bakr Ahmad ibn al-Husayn al-Bayhaqi (384–458 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 39,
+      "category": "hadith",
+      "collection": "iman-branches",
+      "description": "Zero-build viewer for Shu'ab al-Iman comprehensively documenting the seventy-seven branches of faith with isnads.",
+      "github_url": "https://github.com/maktabah-maftoohah/shuab-al-iman-bayhaqi",
+      "local_path": "../shuab-al-iman-bayhaqi",
+      "live_url": "https://maktabah-maftoohah.github.io/shuab-al-iman-bayhaqi/",
+      "metrics": {
+        "volumes": 14,
+        "estimated_hadiths": 11000
+      }
+    },
+    {
+      "id": "al-adhkar-an-nawawi",
+      "name": "al-adhkar-an-nawawi",
+      "title": "Maktabah Maftoohah — Kitab al-Adhkar (An-Nawawi)",
+      "title_ar": "الأذكار المنتخبة من كلام سيد الأبرار للإمام النووي",
+      "author": "Imam Yahya ibn Sharaf an-Nawawi (631–676 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 40,
+      "category": "hadith",
+      "collection": "adhkar-dua",
+      "description": "Zero-build viewer for Imam an-Nawawi's definitive handbook of Prophetic supplications, daily remembrances, and etiquette.",
+      "github_url": "https://github.com/maktabah-maftoohah/al-adhkar-an-nawawi",
+      "local_path": "../al-adhkar-an-nawawi",
+      "live_url": "https://maktabah-maftoohah.github.io/al-adhkar-an-nawawi/",
+      "metrics": {
+        "estimated_hadiths": 1250,
+        "chapters": 356
+      }
+    },
+    {
+      "id": "hisn-al-muslim",
+      "name": "hisn-al-muslim",
+      "title": "Maktabah Maftoohah — Hisn al-Muslim",
+      "title_ar": "حصن المسلم من أذكار الكتاب والسنة للشيخ القحطاني",
+      "author": "Dr. Sa'id ibn 'Ali ibn Wahf al-Qahtani (1371–1440 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 41,
+      "category": "hadith",
+      "collection": "adhkar-dua",
+      "description": "Zero-build viewer for Hisn al-Muslim (Fortress of the Muslim), the universal pocket handbook of authentic daily supplications.",
+      "github_url": "https://github.com/maktabah-maftoohah/hisn-al-muslim",
+      "local_path": "../hisn-al-muslim",
+      "live_url": "https://maktabah-maftoohah.github.io/hisn-al-muslim/",
+      "metrics": {
+        "chapters": 267,
+        "categories": 132
+      }
+    },
+    {
+      "id": "sirah-ibn-hisham",
+      "name": "sirah-ibn-hisham",
+      "title": "Maktabah Maftoohah — Al-Sirah al-Nabawiyyah (Ibn Hisham)",
+      "title_ar": "السيرة النبوية لابن هشام",
+      "author": "Abu Muhammad 'Abd al-Malik Ibn Hisham (d. 218 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 42,
+      "category": "seerah",
+      "collection": "seerah-nabawiyyah",
+      "description": "Zero-build viewer for Sirah Ibn Hisham, the foundational primary chronicle of the Life and Expeditions of the Prophet ﷺ.",
+      "github_url": "https://github.com/maktabah-maftoohah/sirah-ibn-hisham",
+      "local_path": "../sirah-ibn-hisham",
+      "live_url": "https://maktabah-maftoohah.github.io/sirah-ibn-hisham/",
+      "metrics": {
+        "volumes": 4,
+        "focus": "Foundational primary biography"
+      }
+    },
+    {
+      "id": "zad-al-maad-ibn-al-qayyim",
+      "name": "zad-al-maad-ibn-al-qayyim",
+      "title": "Maktabah Maftoohah — Zad al-Ma'ad (Ibn Qayyim al-Jawziyyah)",
+      "title_ar": "زاد المعاد في هدي خير العباد لابن قيم الجوزية",
+      "author": "Imam Shams ad-Din Ibn Qayyim al-Jawziyyah (691–751 AH)",
+      "visibility": "public",
+      "status": "planned",
+      "priority": 43,
+      "category": "seerah",
+      "collection": "seerah-sunnah",
+      "description": "Zero-build viewer for Zad al-Ma'ad, the unique synthesis connecting the Prophetic biography, daily sunnah, fiqh, and medicine.",
+      "github_url": "https://github.com/maktabah-maftoohah/zad-al-maad-ibn-al-qayyim",
+      "local_path": "../zad-al-maad-ibn-al-qayyim",
+      "live_url": "https://maktabah-maftoohah.github.io/zad-al-maad-ibn-al-qayyim/",
+      "metrics": {
+        "volumes": 6,
+        "focus": "Comprehensive guidance and prophetic practices"
+      }
+    }
+  ]
+}
