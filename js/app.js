@@ -12,6 +12,29 @@ let selectedCategory = 'all';
 let searchQuery = '';
 
 document.addEventListener('DOMContentLoaded', async () => {
+  // Parse URL parameters for language, theme, and query settings from search engine deep links
+  const params = new URLSearchParams(window.location.search);
+  const langParam = params.get('lang');
+  if (langParam === 'en' || langParam === 'ms') {
+    currentLang = langParam;
+    try { localStorage.setItem('mm_lang', currentLang); } catch {}
+  }
+  const themeParam = params.get('theme');
+  if (themeParam === 'dark' || themeParam === 'light') {
+    currentTheme = themeParam;
+    try { localStorage.setItem('mm_theme', currentTheme); } catch {}
+  }
+  const catParam = params.get('category');
+  if (catParam) {
+    selectedCategory = catParam;
+  }
+  const qParam = params.get('q') || params.get('search');
+  if (qParam) {
+    searchQuery = qParam;
+    const sInput = document.getElementById('searchInput');
+    if (sInput) sInput.value = searchQuery;
+  }
+
   initTheme();
   initLanguage();
   initServiceWorker();

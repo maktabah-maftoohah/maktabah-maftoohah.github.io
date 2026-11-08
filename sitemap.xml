@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://maktabah-maftoohah.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://maktabah-maftoohah.github.io/?lang=ms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktabah-maftoohah.github.io/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktabah-maftoohah.github.io/" />
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://maktabah-maftoohah.github.io/?category=quran</loc>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://maktabah-maftoohah.github.io/?category=quran&amp;amp;lang=ms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktabah-maftoohah.github.io/?category=quran&amp;amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktabah-maftoohah.github.io/?category=quran" />
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maktabah-maftoohah.github.io/?category=kutub-as-sittah</loc>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://maktabah-maftoohah.github.io/?category=kutub-as-sittah&amp;amp;lang=ms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktabah-maftoohah.github.io/?category=kutub-as-sittah&amp;amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktabah-maftoohah.github.io/?category=kutub-as-sittah" />
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maktabah-maftoohah.github.io/?category=sunan-masanid</loc>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://maktabah-maftoohah.github.io/?category=sunan-masanid&amp;amp;lang=ms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktabah-maftoohah.github.io/?category=sunan-masanid&amp;amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktabah-maftoohah.github.io/?category=sunan-masanid" />
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maktabah-maftoohah.github.io/?category=fiqh</loc>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://maktabah-maftoohah.github.io/?category=fiqh&amp;amp;lang=ms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktabah-maftoohah.github.io/?category=fiqh&amp;amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktabah-maftoohah.github.io/?category=fiqh" />
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maktabah-maftoohah.github.io/?category=tafsir</loc>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://maktabah-maftoohah.github.io/?category=tafsir&amp;amp;lang=ms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktabah-maftoohah.github.io/?category=tafsir&amp;amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktabah-maftoohah.github.io/?category=tafsir" />
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maktabah-maftoohah.github.io/?category=sirah</loc>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://maktabah-maftoohah.github.io/?category=sirah&amp;amp;lang=ms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktabah-maftoohah.github.io/?category=sirah&amp;amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktabah-maftoohah.github.io/?category=sirah" />
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maktabah-maftoohah.github.io/?category=rijal</loc>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://maktabah-maftoohah.github.io/?category=rijal&amp;amp;lang=ms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktabah-maftoohah.github.io/?category=rijal&amp;amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktabah-maftoohah.github.io/?category=rijal" />
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

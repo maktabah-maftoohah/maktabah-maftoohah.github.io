@@ -1,4 +1,4 @@
-const CACHE_NAME = 'maktabah-portal-v1';
+const CACHE_NAME = 'maktabah-portal-v2';
 const ASSETS = [
   './',
   './index.html',

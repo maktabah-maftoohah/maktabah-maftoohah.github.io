@@ -1,0 +1,79 @@
+User-agent: *
+Allow: /
+
+# Dedicated AI & Web Search Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemaps
+Sitemap: https://maktabah-maftoohah.github.io/sitemap-index.xml
+Sitemap: https://maktabah-maftoohah.github.io/al-quran/sitemap-index.xml
+Sitemap: https://maktabah-maftoohah.github.io/korpus-quran/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/sahih-al-bukhari/sitemap-index.xml
+Sitemap: https://maktabah-maftoohah.github.io/sahih-muslim/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/sunan-abi-dawud/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/jami-at-tirmidhi/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/sunan-an-nasai/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/sunan-ibn-majah/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/muwatta-malik/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/arbaeen-an-nawawi/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/riyad-as-salihin/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/musnad-ahmad/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/musannaf-abd-al-razzaq/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/musannaf-ibn-abi-shaybah/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/juz-al-mafqud-abd-al-razzaq/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/sunan-ad-darimi/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/sahih-ibn-khuzaymah/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/sahih-ibn-hibban/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/al-mustadrak-al-hakim/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/bulugh-al-maram/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/umdat-al-ahkam/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/sunan-al-kubra-al-bayhaqi/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/sunan-ad-daraqutni/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/sharh-maani-al-athar/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/shamail-al-muhammadiyyah/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/mishkat-al-masabih/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/kitab-al-mawduat-ibn-al-jawzi/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/musnad-al-shafii/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/ikhtilaf-al-hadith/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/kitab-al-umm/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/tafsir-al-tabari/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/tafsir-ibn-kathir/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/tafsir-al-qurtubi/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/tafsir-al-baghawi/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/tahdhib-al-kamal/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/siyar-alam-al-nubala/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/al-isabah-ibn-hajar/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/al-mujam-al-kabir-tabarani/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/majma-al-zawaid-haythami/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/al-adab-al-mufrad-bukhari/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/shuab-al-iman-bayhaqi/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/al-adhkar-an-nawawi/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/hisn-al-muslim/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/sirah-ibn-hisham/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/zad-al-maad-ibn-al-qayyim/sitemap.xml
+Sitemap: https://maktabah-maftoohah.github.io/prophetic-timeline/sitemap.xml
+
+# AI & Large Language Model Discovery Reference (https://llmstxt.org/)
+llms.txt: https://maktabah-maftoohah.github.io/llms.txt

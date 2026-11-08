@@ -1,0 +1,16 @@
+# Maktabah Maftoohah (المكتبة المفتوحة)
+> Open-access, zero-build, offline-first digital Islamic library ecosystem.
+> Standard Malaysian Islamic nomenclature (Bahasa Melayu) & English localization.
+
+## Collections & Repositories
+- [Portal Utama / Master Catalogue](https://maktabah-maftoohah.github.io/): Comprehensive catalogue of 48 classical Islamic heritage repositories.
+- [Al-Quran Digital](https://maktabah-maftoohah.github.io/al-quran/): Complete 114 Surahs, 6,236 Ayahs, word-by-word morphology, Basmeih & Sahih International translations, Tafsir Jalalayn.
+- [Sahih al-Bukhari](https://maktabah-maftoohah.github.io/sahih-al-bukhari/): Complete 7,563 hadiths across 97 books, full Arabic matn & isnad, dual translations, scholarly gradings, cross-references.
+- [Sahih Muslim](https://maktabah-maftoohah.github.io/sahih-muslim/): Authentic Prophetic traditions categorized across canonical books.
+- [Bulugh al-Maram](https://maktabah-maftoohah.github.io/bulugh-al-maram/): Classical legal Hadith collection compiled by Ibn Hajar al-Asqalani.
+- [Korpus Al-Quran](https://maktabah-maftoohah.github.io/korpus-quran/): Arabic grammar, syntax (I'rab), and 1,651 root words dictionary.
+- [Prophetic Timeline](https://maktabah-maftoohah.github.io/prophetic-timeline/): Chronological interactive timeline of the Sirah Nabawiyyah.
+
+## Data Standard & Machine Endpoints
+- Canonical Schemas: https://github.com/maktabah-maftoohah/maktabah-orchestrator/tree/main/schemas
+- Cross-Reference Knowledge Graph: https://github.com/maktabah-maftoohah/maktabah-orchestrator/blob/main/registry/crossref-index.json
