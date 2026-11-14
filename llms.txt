@@ -12,5 +12,5 @@
 - [Prophetic Timeline](https://maktabah-maftoohah.github.io/prophetic-timeline/): Chronological interactive timeline of the Sirah Nabawiyyah.
 
 ## Data Standard & Machine Endpoints
-- Canonical Schemas: https://github.com/maktabah-maftoohah/maktabah-orchestrator/tree/main/schemas
-- Cross-Reference Knowledge Graph: https://github.com/maktabah-maftoohah/maktabah-orchestrator/blob/main/registry/crossref-index.json
+- Master Registry: https://maktabah-maftoohah.github.io/data/catalogue.json
+- Master Sitemap Index: https://maktabah-maftoohah.github.io/sitemap-index.xml

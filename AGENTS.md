@@ -6,6 +6,7 @@
 1. **GitHub Pages Root Compatibility**:
    - As the organization root site (`https://maktabah-maftoohah.github.io/`), all asset imports and data fetches must use relative paths (`./css/...`, `./js/...`, `./data/...`).
    - Links to member repositories must link relatively (`./al-quran/`, `./sahih-al-bukhari/`) or via absolute canonical URLs (`https://maktabah-maftoohah.github.io/<repo>/`).
+   - GitHub Pages Exclusivity: Web pages must never link to GitHub project repositories (github.com/...); all navigation must link exclusively to GitHub Pages.
 
 2. **Encoding & File Standards**:
    - Strict UTF-8 without BOM encoding on all text files (HTML, JS, CSS, JSON, MD, PY).

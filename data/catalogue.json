@@ -162,17 +162,19 @@
       "title_ar": "سنن النسائي (المجتبى)",
       "author": "Imam Ahmad ibn Shu'ayb an-Nasa'i (214–303 AH)",
       "visibility": "public",
-      "status": "planned",
+      "status": "active",
       "priority": 5,
       "category": "hadith",
       "collection": "kutub-as-sittah",
-      "description": "Zero-build viewer for Sunan an-Nasa'i with meticulous 'ilal (hidden defects) and sanad variants.",
+      "description": "Zero-build digital viewer and structured dataset for Sunan an-Nasa'i (51 books, 5,765 hadiths) with authentic vocalized text, isnad analysis, scholarly gradings, and dual Malay & English translations.",
       "github_url": "https://github.com/maktabah-maftoohah/sunan-an-nasai",
       "local_path": "../sunan-an-nasai",
       "live_url": "https://maktabah-maftoohah.github.io/sunan-an-nasai/",
       "metrics": {
-        "estimated_hadiths": 5758,
-        "books": 51
+        "total_hadiths": 5765,
+        "books": 51,
+        "first_hadith": 1,
+        "last_hadith": 5758
       }
     },
     {
